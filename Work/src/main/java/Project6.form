@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                              <Component id="cbbSteak" min="-2" pref="210" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtTotalSt" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="txtPriceSt" min="-2" pref="114" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="btnDel" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnAdd" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="btnEdit" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                      <Component id="cbbTB" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="lbTotal" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="198" max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" min="-2" pref="624" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="84" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jButton2" min="-2" pref="67" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="29" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel6" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cbbSteak" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnAdd" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbbTB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="txtPriceSt" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="btnDel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtTotalSt" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="btnEdit" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="337" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbTotal" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="19" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="TH Baijam" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe04;&#xe32; :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPriceSt">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPriceStActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="TH Baijam" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xe08;&#xe33;&#xe19;&#xe27;&#xe19; :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTotalSt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtTotalStActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAdd">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="TH Baijam" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xe40;&#xe1e;&#xe34;&#xe48;&#xe21;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAddActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnDel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="TH Baijam" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xe25;&#xe1a;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnEdit">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="TH Baijam" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xe41;&#xe01;&#xe49;&#xe44;&#xe02;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tb">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="TH Baijam" size="18" style="1"/>
+            </Property>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="5" rowCount="0">
+                <Column editable="false" title="TB" type="java.lang.Object"/>
+                <Column editable="false" title="&#xe23;&#xe32;&#xe22;&#xe01;&#xe32;&#xe23;&#xe2d;&#xe32;&#xe2b;&#xe32;&#xe23;" type="java.lang.Object"/>
+                <Column editable="false" title="&#xe23;&#xe32;&#xe04;&#xe32;" type="java.lang.Object"/>
+                <Column editable="false" title="&#xe08;&#xe33;&#xe19;&#xe27;&#xe19;" type="java.lang.Object"/>
+                <Column editable="false" title="&#xe08;&#xe33;&#xe19;&#xe27;&#xe19;&#xe40;&#xe07;&#xe34;&#xe19;" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tbMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lbTotal">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="TH Baijam" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe04;&#xe32;&#xe23;&#xe27;&#xe21; :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbbSteak">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="TH Baijam" size="18" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="34">
+            <StringItem index="0" value="&#xe2d;&#xe2d;&#xe2a;&#xe40;&#xe15;&#xe23;&#xe40;&#xe25;&#xe35;&#xe22;&#xe2a;&#xe40;&#xe15;&#xe47;&#xe01; "/>
+            <StringItem index="1" value="&#xe42;&#xe04;&#xe02;&#xe38;&#xe19;&#xe2d;&#xe2d;&#xe2a;&#xe40;&#xe15;&#xe23;&#xe40;&#xe25;&#xe35;&#xe22; "/>
+            <StringItem index="2" value="&#xe42;&#xe04;&#xe02;&#xe38;&#xe19;&#xe0b;&#xe2d;&#xe2a;&#xe40;&#xe1b;&#xe1b;&#xe40;&#xe1b;&#xe2d;&#xe23;&#xe4c; "/>
+            <StringItem index="3" value="&#xe17;&#xe35;&#xe42;&#xe1a;&#xe19;&#xe2b;&#xe21;&#xe39;&#xe42;&#xe04;&#xe02;&#xe38;&#xe19; "/>
+            <StringItem index="4" value="&#xe2b;&#xe21;&#xe39;&#xe04;&#xe38;&#xe42;&#xe23;&#xe1a;&#xe38;&#xe15;&#xe30;&#xe1e;&#xe47;&#xe2d;&#xe04;&#xe0a;&#xe47;&#xe2d;&#xe1b; "/>
+            <StringItem index="5" value="&#xe1e;&#xe2d;&#xe23;&#xe4c;&#xe04;&#xe0a;&#xe2d;&#xe1b;&#xe0b;&#xe2d;&#xe2a;&#xe1e;&#xe23;&#xe34;&#xe01;&#xe44;&#xe17;&#xe22;&#xe14;&#xe33;"/>
+            <StringItem index="6" value="&#xe2b;&#xe21;&#xe39;&#xe04;&#xe38;&#xe42;&#xe23;&#xe1a;&#xe38;&#xe15;&#xe30;&#xe17;&#xe35;&#xe42;&#xe1a;&#xe19; "/>
+            <StringItem index="7" value="&#xe2a;&#xe31;&#xe19;&#xe04;&#xe2d;&#xe2b;&#xe21;&#xe39;&#xe04;&#xe38;&#xe42;&#xe23;&#xe1a;&#xe38;&#xe15;&#xe30; "/>
+            <StringItem index="8" value="&#xe2a;&#xe40;&#xe15;&#xe47;&#xe01;&#xe44;&#xe01;&#xe48;&#xe0b;&#xe2d;&#xe2a;&#xe41;&#xe08;&#xe48;&#xe27; "/>
+            <StringItem index="9" value="&#xe2a;&#xe40;&#xe15;&#xe47;&#xe01;&#xe1b;&#xe25;&#xe32;&#xe14;&#xe2d;&#xe25;&#xe25;&#xe35;&#xe48;"/>
+            <StringItem index="10" value="&#xe2a;&#xe40;&#xe15;&#xe47;&#xe01;&#xe44;&#xe01;&#xe48;+&#xe44;&#xe2a;&#xe49;&#xe01;&#xe23;&#xe2d;&#xe01; "/>
+            <StringItem index="11" value="&#xe19;&#xe34;&#xe27;&#xe0b;&#xe35;&#xe41;&#xe25;&#xe19;&#xe14;&#xe4c;&#xe40;&#xe0b;&#xe2d;&#xe23;&#xe4c;&#xe25;&#xe2d;&#xe22;"/>
+            <StringItem index="12" value="&#xe0a;&#xe32;&#xe21;&#xe30;&#xe19;&#xe32;&#xe27;&#xe42;&#xe0b;&#xe14;&#xe32; "/>
+            <StringItem index="13" value="&#xe41;&#xe15;&#xe07;&#xe42;&#xe21;&#xe21;&#xe30;&#xe19;&#xe32;&#xe27; "/>
+            <StringItem index="14" value="&#xe41;&#xe15;&#xe07;&#xe42;&#xe21;&#xe1b;&#xe31;&#xe48;&#xe19; "/>
+            <StringItem index="15" value="&#xe1a;&#xe25;&#xe39;&#xe40;&#xe1a;&#xe2d;&#xe23;&#xe4c;&#xe23;&#xe35;&#xe48; "/>
+            <StringItem index="16" value="&#xe21;&#xe30;&#xe19;&#xe32;&#xe27;&#xe21;&#xe34;&#xe49;&#xe19;&#xe42;&#xe0b;&#xe14;&#xe32; "/>
+            <StringItem index="17" value="&#xe19;&#xe49;&#xe33;&#xe40;&#xe25;&#xe21;&#xe48;&#xe2d;&#xe19; "/>
+            <StringItem index="18" value="&#xe19;&#xe49;&#xe33;&#xe2a;&#xe15;&#xe23;&#xe2d;&#xe40;&#xe1a;&#xe2d;&#xe23;&#xe4c;&#xe23;&#xe35;&#xe48;"/>
+            <StringItem index="19" value="&#xe19;&#xe49;&#xe33;&#xe2a;&#xe31;&#xe1a;&#xe1b;&#xe30;&#xe23;&#xe14; "/>
+            <StringItem index="20" value="&#xe19;&#xe49;&#xe33;&#xe23;&#xe32;&#xe2a;&#xe40;&#xe1a;&#xe2d;&#xe23;&#xe35;&#xe48;"/>
+            <StringItem index="21" value="&#xe19;&#xe49;&#xe33;&#xe2a;&#xe25;&#xe30; "/>
+            <StringItem index="22" value="&#xe19;&#xe49;&#xe33;&#xe40;&#xe0a;&#xe2d;&#xe23;&#xe35;&#xe48; "/>
+            <StringItem index="23" value="&#xe19;&#xe49;&#xe33;&#xe43;&#xe1a;&#xe40;&#xe15;&#xe22;"/>
+            <StringItem index="24" value="&#xe02;&#xe19;&#xe21;&#xe1b;&#xe31;&#xe07;&#xe42;&#xe23;&#xe25;&#xe0a;&#xe35;&#xe2a; "/>
+            <StringItem index="25" value="&#xe02;&#xe19;&#xe21;&#xe1b;&#xe31;&#xe07;&#xe21;&#xe49;&#xe27;&#xe19;&#xe2d;&#xe31;&#xe25;&#xe21;&#xe2d;&#xe19;&#xe14;&#xe4c;"/>
+            <StringItem index="26" value="&#xe02;&#xe19;&#xe21;&#xe1b;&#xe31;&#xe07;&#xe1b;&#xe34;&#xe49;&#xe07;&#xe2a;&#xe31;&#xe07;&#xe02;&#xe22;&#xe32;"/>
+            <StringItem index="27" value="&#xe02;&#xe19;&#xe21;&#xe1b;&#xe31;&#xe07;&#xe40;&#xe2a;&#xe35;&#xe22;&#xe1a;&#xe44;&#xe21;&#xe49;"/>
+            <StringItem index="28" value="&#xe02;&#xe19;&#xe21;&#xe1b;&#xe31;&#xe07;&#xe2d;&#xe1a;&#xe0a;&#xe35;&#xe2a;"/>
+            <StringItem index="29" value="&#xe0a;&#xe35;&#xe2a;&#xe17;&#xe2d;&#xe14;&#xe01;&#xe23;&#xe2d;&#xe1a;"/>
+            <StringItem index="30" value="&#xe1b;&#xe2d;&#xe40;&#xe1b;&#xe35;&#xe4a;&#xe22;&#xe30;&#xe01;&#xe38;&#xe49;&#xe07;&#xe0a;&#xe35;&#xe2a;"/>
+            <StringItem index="31" value="&#xe1e;&#xe34;&#xe0b;&#xe0b;&#xe48;&#xe32;&#xe42;&#xe23;&#xe25;&#xe41;&#xe2e;&#xe21;&#xe0a;&#xe35;&#xe2a;"/>
+            <StringItem index="32" value="&#xe21;&#xe31;&#xe19;&#xe1d;&#xe23;&#xe31;&#xe48;&#xe07;&#xe0a;&#xe38;&#xe1a;&#xe41;&#xe1b;&#xe49;&#xe07;&#xe17;&#xe2d;&#xe14;"/>
+            <StringItem index="33" value="&#xe2d;&#xe01;&#xe44;&#xe01;&#xe48;&#xe0a;&#xe35;&#xe2a;&#xe1a;&#xe2d;&#xe25;"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="cbbSteakItemStateChanged"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbbSteakActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="TH Baijam" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe01;&#xe32;&#xe23;&#xe2d;&#xe32;&#xe2b;&#xe32;&#xe23; :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="TH Baijam" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xe2a;&#xe31;&#xe48;&#xe07;&#xe0b;&#xe37;&#xe49;&#xe2d;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="TH Baijam" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xe01;&#xe25;&#xe31;&#xe1a;"/>
+        <Property name="actionCommand" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbbTB">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
